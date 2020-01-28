@@ -1,0 +1,43 @@
+html,body,div
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    height: 100%;
+}
+
+@font-face {
+    font-family: "digit";
+    src: url(../fonts/digital-7.ttf) format("truetype");
+}
+
+.timer-main-box
+{
+    position: relative;
+    width: 81%;
+    margin: 0px auto;
+    padding: 250px 100px 0px 100px;
+}
+span
+{
+    display: inline-block;
+}
+.char,.separator
+{
+    font-family: "digit";
+    font-size:280px; /*350 vagy 280*/ 
+}
+.hide
+{
+    display:none;
+}
+.dashboard-box,
+.btn-box,
+.elem-center
+{
+    display: table;
+    margin: 0px auto;  
+}

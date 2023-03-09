@@ -1,2 +1,2 @@
 # SimpleTimer
-It's just a simpe Timer, with controlls.
+It's just a simple Timer, with controlls.
